@@ -1,7 +1,5 @@
 {
     "[json]": {
-
-
         "editor.quickSuggestions": {
             "strings": true
         },
@@ -12,7 +10,12 @@
     "emmet.includeLanguages": {
         "erb": "html"
     },
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoExit",
+        "chcp",
+        "65001"
+    ],
     "ruby.lint": {
         "reek": true,
         "rubocop": true,
@@ -24,5 +27,9 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.home": "C:\\Program Files\\Java\\jdk1.8.0_261",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "editor.wordWrapColumn": 8,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+
 }
