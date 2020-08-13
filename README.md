@@ -4,6 +4,6 @@
 ファイル「extensions」の内容、インポートしたい環境でペーストすると拡張機能がインストールされる。
 
 ▼設定の適用方法
-　①設定を適用する環境のVSCODEにてCTRL + P を入力
-　②検索窓に「setting.json」を入力
-　③ファイル「setting.json」の内容をコピペする。
+　①設定を適用する環境のVSCODEにてCTRL + P を入力 <br/>
+　②検索窓に「setting.json」を入力 <br/>
+　③ファイル「setting.json」の内容をコピペする。 <br/>
