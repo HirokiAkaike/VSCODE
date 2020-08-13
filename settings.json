@@ -10,12 +10,13 @@
     "emmet.includeLanguages": {
         "erb": "html"
     },
-    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "-NoExit",
-        "chcp",
-        "65001"
-    ],
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    // "terminal.integrated.shellArgs.windows": [
+    //     "-NoExit",
+    //     "chcp",
+    //     "65001"
+    // ],
     "ruby.lint": {
         "reek": true,
         "rubocop": true,
@@ -31,5 +32,4 @@
     "editor.wordWrapColumn": 8,
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
-
 }
